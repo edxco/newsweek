@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/* --------- General */
+html {
+    font-size: 1em;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F4F5F6;
+    margin: 0 auto;
+    line-height: 18px;
+}
+
+/* --------- Global */
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration-color: #F72210;
+    color: #000;
+}
+
+img {
+    cursor: pointer;
+}
+
+.tag-grey {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+}
+
+/* --------- Colors  */
+.bg-1 {
+    background-color: #F72210;
+}
+
+.bg-2 {
+    background-color: #FFE400;
+}
+
+.bg-3 {
+    background-color: #F4F3F3;
+}
+
+.bg-t {
+    background: linear-gradient(30deg, blue, red, yellow)
+}
+
+.text-1 {
+    color: #F72210;
+}
+
+.text-2 {
+    color: #666;
+}
+
+.text-3 {
+    color: #9A9A9A;
+}
+
+
+/* --------- Margins */
+.ps-auto {
+    padding: 0 15px;
+}
+
+.ms-auto {
+    margin: 0 15px;
+}
+
+.hr-ms {
+    margin: 10px 15px;
+}
+
+/* --------- font styles */
+
+.font-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold-300 {
+    font-weight: 300;
+}
+
+.bold-400 {
+    font-weight: 400;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.image-news {
+    position: relative;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+/* --------- Misc */
+.lh-1 {
+    line-height: 1.1em;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+/* Navbar */
+.logo-one {
+    fill: #fff;
+    width: 135px;
+}
+
+.logo-two {
+    fill: #F72210;
+}
+
+header .row {
+    height: 50px;
+}
+
+.btn-subscribe {
+    height: 37px;
+    border: 0;
+    border-radius: 3em;
+    padding: 0 10px;
+    align-items: center;
+    width: 120px;
+    font-size: .7em;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Third column */
+.bold-hr {
+    border: 2px solid #D9D9D9;
+}
+
+.img-3c {
+    width: 60px;
+}
+
+.container-c-vs {
+    position: relative;
+    z-index: 0;
+    margin: 0 15px;
+}
+
+.container-c-vs::before,
+.container-c-vs::after {
+    display: block;
+    content: "";
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.container-c-vs::before {
+    height: 2px;
+    top: calc(50% - 3px);
+}
+
+.container-c-vs::after {
+    top: 50%;
+}
+
+.c-vs {
+    position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border-radius: 50%;
+    font: bold 14px/32px "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin: 6px auto;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .container {
+        max-width: 131rem;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .container {
+        max-width: 131rem;
+    }
+}
