@@ -76,7 +76,6 @@ img {
 }
 
 /* --------- font styles */
-
 .font-arial {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -91,6 +90,10 @@ img {
 
 .bold-700 {
     font-weight: 700;
+}
+
+.l-spacing {
+letter-spacing: -1px;
 }
 
 .image-news {
@@ -138,6 +141,10 @@ img {
 
 header .row {
     height: 50px;
+}
+
+.login-icon {
+    display: inline;
 }
 
 .btn-subscribe {
@@ -221,12 +228,37 @@ header .row {
     text-decoration: none;
 }
 
+/* --------- Subscribe form */
+.subscribe-div {
+    width: 300px;
+    min-width: 100px;
+}
+
+.subscribe-img {
+    width: 30px;
+}
+
+#m-stories {
+    height: 90%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .my-turn {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+    .login-icon {
+        display: none;
+    }
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
