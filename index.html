@@ -68,7 +68,7 @@
                     <i class="fas fa-bars d-lg-none text-white fa-lg px-4"></i>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white pb-3 border-bottom d-none d-lg-block">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white pb-3 border-show d-none d-lg-block">
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav d-flex justify-content-between w-100">
                         <li class="nav-item align-self-center">
@@ -120,7 +120,7 @@
                     </ul>
                 </div>
             </nav>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 border-bottom d-none d-lg-block">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 border-show d-none d-lg-block">
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav d-flex w-100">
                         <li class="nav-item active">
@@ -159,11 +159,11 @@
             </div>
         </div>
     </header>
-    <main class="container-xl p-0 mx-auto top-pos">
+    <main class="container-xl p-0 mx-auto sticky-offset">
         <div id="scroll-content" class="d-flex flex-wrap m-0">
-            <div class="col-xl-4 col-md-7 order-md-2 m-0 p-0">
+            <div class="col-xl-4 col-md-7 order-sm-1 order-md-2 m-0 p-0">
                 <!-- Top Story -->
-                <div class="bg-white border-bottom border-top mb-sm-3 mb-md-0 pb-sm-4 pb-md-0">
+                <div class="bg-white border-show mb-3 mb-md-0 pb-sm-4 pb-md-0">
                     <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0">TOP STORY</p>
                     <article class="card container rounded-0 ps-auto my-3 border-0">
                         <div class="position-relative">
@@ -185,7 +185,7 @@
                     </article>
                 </div>
                 <!-- My Turn -->
-                <div class="bg-white border-bottom border-top mb-sm-3 mb-md-0 pb-sm-4 pb-md-0 d-sm-none d-md-block">
+                <div class="bg-white border-show  mb-sm-3 mb-md-0 pb-sm-4 pb-md-0 d-none d-md-block">
                     <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">MY TURN</p>
                     <div class="d-md-flex">
                         <article class="card container rounded-0 ps-auto my-3 border-0">
@@ -302,7 +302,7 @@
                     </div>
                 </div>
                 <!-- More Stories -->
-                <div class="bg-white border-bottom border-top mb-sm-3 mb-md-0 pb-sm-4 pb-md-0 d-sm-none d-md-block sticky-top">
+                <div class="bg-white border-show  mb-sm-3 mb-md-0 pb-sm-4 pb-md-0 d-none d-md-block sticky-top">
                     <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">MORE STORIES</p>
                     <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
                         <div class="row no-gutters align-self-center w-100">
@@ -589,9 +589,9 @@
                     </article>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-5 order-md-1 m-0 p-0">
+            <div class="col-xl-4 col-md-5 order-sm-2 order-md-1 m-0 p-0">
                 <!-- Featured stories -->
-                <div class="bg-white border-bottom border-top mb-sm-3 mb-md-0 sticky-top">
+                <div class="bg-white border-show mb-3 mb-md-0 sticky-top">
                     <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">FEATURED STORIES</p>
                     <article class="card container rounded-0 ps-auto my-3 border-0">
                         <div class="position-relative">
@@ -693,62 +693,226 @@
                     </article>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-12 order-md-3 m-0 p-0">
+            <div class="col-xl-4 col-md-12 order-sm-3 order-md-3 m-0 p-0">
                 <!-- THE DEBATE -->
-                <div class="sticky-top sticky-offset">
-                <div class="bg-white border-bottom border-top mb-sm-3 mb-md-0 pb-sm-4 pb-md-0 d-sm-none d-md-block">
-                    <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">THE DEBATE</p>
-                    <hr class="bold-hr ms-auto">
-                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
-                        <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/debate1.png" class="img-3c" alt="Gordon G. Chang">
-                            </div>
-                            <div class="col-10 align-self-center w-100">
-                                <div class="card-body p-0 m-0 ">
-                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">Avoid War, Defend America,
-                                            Recognize Taiwan.
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>GORDON G. CHANG</strong></p>
+                <div class="sticky-top debate-offset">
+                    <div class="bg-white border-show mb-3 mb-md-0 pb-4 pb-md-0">
+                        <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">THE DEBATE</p>
+                        <hr class="bold-hr ms-auto">
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/debate1.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-center w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">Avoid War, Defend America,
+                                                Recognize Taiwan.
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>GORDON G. CHANG</strong></p>
+                                    </div>
                                 </div>
                             </div>
+                        </article>
+                        <div class="container-c-vs">
+                            <div class="c-vs bold-700 text-3">VS</div>
                         </div>
-                    </article>
-                    <div class="container-c-vs">
-                        <div class="c-vs bold-700 text-3">VS</div>
+                        <article class="card border-0 d-flex flex-row mb-3 pt-0 ps-auto">
+                            <div class="row no-gutters w-100">
+                                <div class="col-10 align-self-center w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">Don't Rush to Fully Normalize Relations With Taiwan
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>JEROME A. COHEN</strong></p>
+                                    </div>
+                                </div>
+                                <div class="col-2 mr-0 pr-0 text-right">
+                                    <img src="img/debate2.png" class="img-3c" alt="Jerome A Cohen">
+                                </div>
+                            </div>
+                        </article>
+                        <hr class="bold-hr ms-auto">
                     </div>
-                    <article class="card border-0 d-flex flex-row mb-3 pt-0 ps-auto">
-                        <div class="row no-gutters w-100">
-                            <div class="col-10 align-self-center w-100">
-                                <div class="card-body p-0 m-0 ">
-                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">Don't Rush to Fully Normalize Relations With Taiwan
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>JEROME A. COHEN</strong></p>
+                    <!-- OPINION -->
+                    <div class="bg-white border-show mb-3 mb-md-0 pb-4 pb-md-0">
+                        <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">OPINION</p>
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/opinion1.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-start w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">America's Karma
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>MARIANNE WILLIAMSON</strong></p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-2 mr-0 pr-0 text-right">
-                                <img src="img/debate2.png" class="img-3c" alt="Jerome A Cohen">
+                        </article>
+                        <hr class="hr-ms">
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/opinion2.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-start w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">Wanted: A Coalition to Restrain Beijing
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>NOAH GARBER</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <hr class="hr-ms">
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/opinion3.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-start w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">How Trump Could Use the Pardon Power to Provide COVID-19
+                                                Regulatory
+                                                Relief
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>JAMES R. CONDE AND T. ELLIOT
+                                                GAISER</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <hr class="hr-ms">
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/opinion4.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-start w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">A Warning to Our Fellow Democrats: A Campaign Focused on Trump
+                                                Won't
+                                                Win
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>SLY JAMES AND WINSTON
+                                                FISHER</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <hr class="hr-ms">
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/opinion5.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-start w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">Nancy's Blowout Could Lead to a Blowout Election
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>NEWT GINGRICH</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <hr class="hr-ms">
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/opinion6.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-start pt-1 w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">Tesla: The Everything Bubble Embodied
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>VIKRAM MANSHARAMANI</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <hr class="hr-ms">
+                        <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                            <div class="row no-gutters align-self-center w-100">
+                                <div class="col-2 ml-0 pl-0">
+                                    <img src="img/opinion7.png" class="img-3c" alt="Gordon G. Chang">
+                                </div>
+                                <div class="col-10 align-self-start w-100">
+                                    <div class="card-body p-0 m-0 ">
+                                        <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                            <a href="#">Let the Private Sector Help Save the Election. We Have No Choice
+                                            </a></h5>
+                                        <p class="card-text font-16 text-2">BY <strong>WENDY WEISER AND JENNIFER
+                                                WEISS-WOLF</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <div class="d-flex justify-content-center m-5">
+                            <div class="row d-flex justify-content-center ">
+                                <form class="subscribe-div bg-3 p-4 border d-none d-md-block">
+                                    <div class="form-group">
+                                        <div class="row d-flex mb-2">
+                                            <div class="col-1 align-self-center m-0">
+                                                <img src="img/n-subscribe.png" class="subscribe-img"
+                                                    alt="Newsweek Logo">
+                                            </div>
+                                            <div class="col align-self-center ml-2">
+                                                <h5 class="bold-700 l-spacing m-0 p-0">START YOUR DAY WITH OUR TOP 5
+                                                    ARTICLES
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter email">
+                                    </div>
+                                    <button type="submit" class="btn bg-1 bold-700 text-white w-100"
+                                        value="Free Sign Up">FREE
+                                        SIGN
+                                        UP
+                                        &nbsp;></button>
+                                </form>
                             </div>
                         </div>
-                    </article>
-                    <hr class="bold-hr ms-auto">
+                    </div>
                 </div>
-                <!-- OPINION -->
-                <div class="bg-white border-bottom border-top mb-sm-3 mb-md-0 pb-sm-4 pb-md-0 d-sm-none d-md-block">
-                    <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">OPINION</p>
+            </div>
+            <div class="col-xl-4 col-md-12 order-sm-4 order-md-3 m-0 p-0">
+                <!-- More Stories -->
+                <div class="bg-white border-show  my-3 mb-md-0 pb-4 pb-md-0 d-block d-md-none">
+                    <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">MORE STORIES</p>
                     <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
                         <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/opinion1.png" class="img-3c" alt="Gordon G. Chang">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories1.jpg" alt="More Stories Photo">
                             </div>
-                            <div class="col-10 align-self-start w-100">
+                            <div class="col-10 align-self-start pl-2 w-100">
                                 <div class="card-body p-0 m-0 ">
                                     <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">America's Karma
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>MARIANNE WILLIAMSON</strong></p>
+                                        <a href="#">
+                                            With Under 60 Days Til Nov. 3, Trump is Leading in These States,
+                                            Polls Show
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">According to statistics available on
+                                        polling
+                                        website
+                                        FiveThirtyEight, Trump is pulling in the strongest numbers in
+                                        Alabama and
+                                        Oklahoma,
+                                        both
+                                        considered to be red states.</p>
                                 </div>
                             </div>
                         </div>
@@ -756,15 +920,23 @@
                     <hr class="hr-ms">
                     <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
                         <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/opinion2.png" class="img-3c" alt="Gordon G. Chang">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories2.jpg" alt="More Stories Photo">
                             </div>
-                            <div class="col-10 align-self-start w-100">
+                            <div class="col-10 align-self-start pl-2 w-100">
                                 <div class="card-body p-0 m-0 ">
                                     <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">Wanted: A Coalition to Restrain Beijing
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>NOAH GARBER</strong></p>
+                                        <a href="#">
+                                            China May Dump U.S. Treasuries if Tensions Escalate, State Media
+                                            Says
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">China is the holder of the second
+                                        largest number
+                                        of
+                                        U.S.
+                                        treasuries, amid a nadir in relations between the world's largest
+                                        economies.</p>
                                 </div>
                             </div>
                         </div>
@@ -772,18 +944,141 @@
                     <hr class="hr-ms">
                     <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
                         <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/opinion3.png" class="img-3c" alt="Gordon G. Chang">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories3.jpg" alt="More Stories Photo">
                             </div>
-                            <div class="col-10 align-self-start w-100">
+                            <div class="col-10 align-self-start pl-2 w-100">
                                 <div class="card-body p-0 m-0 ">
                                     <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">How Trump Could Use the Pardon Power to Provide COVID-19
-                                            Regulatory
-                                            Relief
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>JAMES R. CONDE AND T. ELLIOT
-                                            GAISER</strong>
+                                        <a href="#">
+                                            Over 75 Sheriffs and Police Officers Endorse Biden, Call Trump
+                                            'Lawless'
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">Current and former sheriffs and
+                                        police officers
+                                        have
+                                        backed Joe Biden for president, according to a new list.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="hr-ms">
+                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                        <div class="row no-gutters align-self-center w-100">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories4.jpg" alt="More Stories Photo">
+                            </div>
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0 ">
+                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                        <a href="#">
+                                            Russia Publishes Early Data on Coronavirus Vaccine, Weeks After
+                                            Approval
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">Experts not involved in the study
+                                        said the
+                                        results
+                                        were
+                                        encouraging, but more research is needed to prove its efficacy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="hr-ms">
+                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                        <div class="row no-gutters align-self-center w-100">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories5.jpg" alt="More Stories Photo">
+                            </div>
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0 ">
+                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                        <a href="#">
+                                            Protesters With Hair Curlers Surround Pelosi's House Over Salon
+                                            Controversy
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">Protesters hung blow dryers outside
+                                        the House
+                                        Speaker's
+                                        San Francisco home after her visit to an indoor hair salon on
+                                        Monday.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="hr-ms">
+                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                        <div class="row no-gutters align-self-center w-100">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories6.jpg" alt="More Stories Photo">
+                            </div>
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0 ">
+                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                        <a href="#">
+                                            Trump Campaign Uses Filter on Joe Biden Photo to Make Him Look
+                                            Older
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">The Trump campaign has confirmed
+                                        that it had
+                                        applied
+                                        a
+                                        filter to the picture of Biden in a Facebook ad launched on
+                                        September 3, 2020,
+                                        but
+                                        declined to say why.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="hr-ms">
+                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                        <div class="row no-gutters align-self-center w-100">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories7.jpg" alt="More Stories Photo">
+                            </div>
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0 ">
+                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                        <a href="#">
+                                            Trump Campaign Uses Filter on Joe Biden Photo to Make Him Look
+                                            Older
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">The Trump campaign has confirmed
+                                        that it had
+                                        applied
+                                        a
+                                        filter to the picture of Biden in a Facebook ad launched on
+                                        September 3, 2020,
+                                        but
+                                        declined to say why.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="hr-ms">
+                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                        <div class="row no-gutters align-self-center w-100">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories8.jpg" alt="More Stories Photo">
+                            </div>
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0 ">
+                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                        <a href="#">
+                                            Hundreds of Dead Fish Discovered in Yellowstone River
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">Montana Fish, Wildlife & Parks has
+                                        launched an
+                                        investigation into the deaths, believed to be caused by
+                                        proliferative kidney
+                                        disease.
                                     </p>
                                 </div>
                             </div>
@@ -792,18 +1087,67 @@
                     <hr class="hr-ms">
                     <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
                         <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/opinion4.png" class="img-3c" alt="Gordon G. Chang">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories9.jpg" alt="More Stories Photo">
                             </div>
-                            <div class="col-10 align-self-start w-100">
+                            <div class="col-10 align-self-start pl-2 w-100">
                                 <div class="card-body p-0 m-0 ">
                                     <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">A Warning to Our Fellow Democrats: A Campaign Focused on Trump
-                                            Won't
-                                            Win
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>SLY JAMES AND WINSTON
-                                            FISHER</strong>
+                                        <a href="#">
+                                            Manhunt Launched After Veteran Cleveland Police Officer Shot
+                                            Dead on Duty
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">The slain officer has been named
+                                        locally as
+                                        53-year-old
+                                        James Skernivitz.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="hr-ms">
+                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                        <div class="row no-gutters align-self-center w-100">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories10.jpg" alt="Gordon G. Chang">
+                            </div>
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0 ">
+                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                        <a href="#">
+                                            Giant Crater in Siberia May Have Exploded From Climate Change
+                                            Cryovolcanism
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">A scientist studying the crater in
+                                        the remote
+                                        Yamal
+                                        peninsula also said it has just a few years to "live."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <hr class="hr-ms">
+                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
+                        <div class="row no-gutters align-self-center w-100">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories11.jpg" alt="Gordon G. Chang">
+                            </div>
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0 ">
+                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
+                                        <a href="#">
+                                            Here Are the Young, Diverse Conservative Stars Progressives Need
+                                            to Fear
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">Conservative stars like Ben Shapiro
+                                        and Stephen
+                                        Miller
+                                        were making waves at a young age; meet the dozen who are following
+                                        in their
+                                        footsteps.
                                     </p>
                                 </div>
                             </div>
@@ -812,54 +1156,121 @@
                     <hr class="hr-ms">
                     <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
                         <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/opinion5.png" class="img-3c" alt="Gordon G. Chang">
+                            <div class="col-2 img2 ml-0 pl-0">
+                                <img src="img/m-stories12.jpg" alt="Gordon G. Chang">
                             </div>
-                            <div class="col-10 align-self-start w-100">
-                                <div class="card-body p-0 m-0 ">
+                            <div class="col-10 align-self-start pl-2 w-100">
+                                <div class="card-body p-0 m-0">
                                     <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">Nancy's Blowout Could Lead to a Blowout Election
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>NEWT GINGRICH</strong></p>
+                                        <a href="#">
+                                            U.S. Marshals Shoot Michael Forest Reinoehl, Trump Blasts
+                                            Portland Police
+                                        </a>
+                                    </h5>
+                                    <p class="card-text font-16 text-2">Reinoehl, 48, was a suspect in the
+                                        killing of
+                                        Aaron
+                                        Danielson during clashes in Portland last Saturday.</p>
                                 </div>
                             </div>
                         </div>
                     </article>
-                    <hr class="hr-ms">
-                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
-                        <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/opinion6.png" class="img-3c" alt="Gordon G. Chang">
+                </div>
+                <!-- My Turn -->
+                <div class="bg-white border-show mb-3 mb-md-0 pb-4 pb-md-0 d-block d-md-none">
+                    <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">MY TURN</p>
+                    <div class="d-md-flex">
+                        <article class="card container rounded-0 ps-auto my-3 border-0">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-0 my-turn" src="img/my-turn1.jpg" alt="Top Story">
                             </div>
-                            <div class="col-10 align-self-start pt-1 w-100">
-                                <div class="card-body p-0 m-0 ">
-                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">Tesla: The Everything Bubble Embodied
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>VIKRAM MANSHARAMANI</strong></p>
+                            <div class="card-body p-0 m-0">
+                                <h6 class="card-title bold-700 mt-2 grey-m-turn">
+                                    <a href="#" class="text-3">
+                                        'I'm a Secret Engagement Ring Buyer for Clueless Guys'
+                                    </a>
+                                </h6>
+                            </div>
+                        </article>
+                        <article class="card container rounded-0 ps-auto my-3 border-0">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-0 my-turn" src="img/my-turn2.jpg" alt="Top Story">
+                            </div>
+                            <div class="card-body p-0 m-0">
+                                <h6 class="card-title bold-700 mt-2 grey-m-turn">
+                                    <a href="#" class="text-3">
+                                        'I Am a Scientist Working With Severe Cases of COVID-19'
+                                    </a>
+                                </h6>
+                            </div>
+                        </article>
+                        <article class="card container rounded-0 ps-auto my-3 border-0">
+                            <div class="position-relative">
+                                <img class="card-img-top rounded-0 my-turn" src="img/my-turn3.jpg" alt="Top Story">
+                            </div>
+                            <div class="card-body p-0 m-0">
+                                <h6 class="card-title bold-700 mt-2 grey-m-turn">
+                                    <a href="#" class="text-3">
+                                        'My Son Was Killed in a Shooting, on the First Day of His PhD
+                                        Scholarship'
+                                    </a>
+                                </h6>
+                            </div>
+                        </article>
+                    </div>
+
+                    <p class="text-3 font-15 bold-700 ps-auto pt-3 pb-0 mb-0 mb-2">CULTURE & TRAVEL</p>
+                    <div class="d-md-flex">
+                        <article class="card container rounded-0 ps-auto my-3 border-0">
+                            <div class="position-relative">
+                                <div class="tag-grey bg-3 bold-700 px-2 pt-1 font-13 text-center">RHINO
+                                    POACHING</div>
+                                <img class="card-img-top rounded-0 my-turn" src="img/culture-travel1.jpg"
+                                    alt="Top Story">
+                            </div>
+                            <div class="card-body p-0 m-0">
+                                <h6 class="card-title bold-700 mt-2 grey-m-turn">
+                                    <a href="#" class="text-3">
+                                        The Last Two Northern White Rhinos—and The Armed Guard Who Protects
+                                        Them
+                                    </a>
+                                </h6>
+                            </div>
+                        </article>
+                        <article class="card container rounded-0 ps-auto my-3 border-0">
+                            <div class="position-relative">
+                                <div class="tag-grey bg-3 bold-700 px-2 pt-1 font-13 text-center">MUSEUMS
                                 </div>
+                                <img class="card-img-top rounded-0 my-turn" src="img/culture-travel2.jpg"
+                                    alt="Top Story">
                             </div>
-                        </div>
-                    </article>
-                    <hr class="hr-ms">
-                    <article class="card border-0 d-flex flex-row mt-3 pb-0 ps-auto">
-                        <div class="row no-gutters align-self-center w-100">
-                            <div class="col-2 ml-0 pl-0">
-                                <img src="img/opinion7.png" class="img-3c" alt="Gordon G. Chang">
+                            <div class="card-body p-0 m-0">
+                                <h6 class="card-title bold-700 mt-2 grey-m-turn">
+                                    <a href="#" class="text-3">
+                                        Planning a Trip to One of NYC's Recently Opened Museums? What to
+                                        Know
+                                    </a>
+                                </h6>
                             </div>
-                            <div class="col-10 align-self-start w-100">
-                                <div class="card-body p-0 m-0 ">
-                                    <h5 class="card-title font-16 bold-700 font-arial mb-1">
-                                        <a href="#">Let the Private Sector Help Save the Election. We Have No Choice
-                                        </a></h5>
-                                    <p class="card-text font-16 text-2">BY <strong>WENDY WEISER AND JENNIFER
-                                            WEISS-WOLF</strong>
-                                    </p>
+                        </article>
+                        <article class="card container rounded-0 ps-auto my-3 border-0">
+                            <div class="position-relative">
+                                <div class="tag-grey bg-3 bold-700 px-2 pt-1 font-13 text-center">TRAVEL
                                 </div>
+                                <img class="card-img-top rounded-0 my-turn" src="img/culture-travel3.jpg"
+                                    alt="Top Story">
                             </div>
-                        </div>
-                    </article>
-                    <div class="d-flex justify-content-center">
+                            <div class="card-body p-0 m-0">
+                                <h6 class="card-title bold-700 mt-2 grey-m-turn">
+                                    <a href="#" class="text-3">
+                                        First Black Woman to Host Travel TV Show Flies in the Face of
+                                        Convention
+                                    </a>
+                                </h6>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="d-flex justify-content-center m-5">
                         <div class="row d-flex justify-content-center d-md-block">
                             <form class="subscribe-div bg-3 p-4 border">
                                 <div class="form-group">
@@ -886,10 +1297,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                
             </div>
         </div>
-        <div class="bg-white border-bottom border-top mb-3 pb-4">
+        <div class="bg-white border-show mb-3 pt-4 pb-4">
             <h5 class="bold-700 ps-auto text-center pt-3 pb-0 mb-0 mb-2"><img src="img/n-subscribe.png"
                     class="subscribe-img" alt="Newsweek Logo"> IN THE MAGAZINE</h5>
         </div>
