@@ -250,6 +250,10 @@ header .row {
     width: 30px;
 }
 
+.sticky-offset {
+    top: 195px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
@@ -261,10 +265,7 @@ header .row {
     .login-icon {
         display: none;
     }
-    .sticky-pos {
-        position: sticky;
-        top: 1rem;
-      }
+    
     
 }
 
