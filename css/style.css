@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 /* --------- General */
-html {
-    font-size: 1em;
-}
-
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #F4F5F6;
@@ -43,6 +39,10 @@ img {
 
 .bg-3 {
     background-color: #F4F3F3;
+}
+
+.bg-3-o {
+    background-color:rgb(244,243,243, 0.8)
 }
 
 .bg-t {
@@ -124,8 +124,20 @@ letter-spacing: -1px;
     font-size: 16px;
 }
 
+.font-tag-mgzn {
+    font-size: 1.1em;
+}
+
 .font-nav {
     font-size: 1.2em;
+}
+
+.font-mgzn {
+    font-size: 1.5em;
+}
+
+.font-tag {
+    font-size: 1.4em;
 }
 
 /* --------- Misc */
@@ -253,6 +265,18 @@ header .row {
 
 .sticky-offset {
     margin-top: 45px;
+}
+
+/* --------- In the magazine */
+.in-the-mgzn {
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tag-white-special {
+    position: absolute;
+    bottom: 0;
 }
 
 /* Small devices (landscape phones, 576px and up) */
