@@ -2,343 +2,374 @@
 
 /* --------- General */
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #F4F5F6;
-    margin: 0 auto;
-    line-height: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0 auto;
+  line-height: 18px;
 }
 
 /* --------- Global */
 a {
-    color: #000;
+  color: #000;
 }
 
 a:hover {
-    text-decoration-color: #F72210;
-    color: #000;
+  text-decoration-color: #f72210;
+  color: #000;
 }
 
 img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .tag-grey {
-    position: absolute;
-    bottom: 0;
-    width: auto;
+  position: absolute;
+  bottom: 0;
+  width: auto;
 }
 
 /* --------- Colors  */
 .bg-1 {
-    background-color: #F72210;
+  background-color: #f72210;
 }
 
 .bg-2 {
-    background-color: #FFE400;
+  background-color: #ffe400;
 }
 
 .bg-3 {
-    background-color: #F4F3F3;
+  background-color: #f4f3f3;
 }
 
 .bg-3-o {
-    background-color:rgb(244,243,243, 0.8)
+  background-color: rgb(244, 243, 243, 0.8);
 }
 
 .bg-t {
-    background: linear-gradient(30deg, blue, red, yellow)
+  background: linear-gradient(30deg, blue, red, yellow);
 }
 
 .text-1 {
-    color: #F72210;
+  color: #f72210;
 }
 
 .text-2 {
-    color: #666;
+  color: #666;
 }
 
 .text-3 {
-    color: #9A9A9A;
+  color: #9a9a9a;
 }
-
 
 /* --------- Margins */
 .ps-auto {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .ms-auto {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .hr-ms {
-    margin: 10px 15px;
+  margin: 10px 15px;
 }
 
 .position-main {
-    top: 40px;
+  top: 40px;
 }
 
 /* --------- font styles */
 .font-arial {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, Helvetica, sans-serif;
 }
 
 .bold-300 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .bold-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .bold-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .l-spacing {
-letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 .image-news {
-    position: relative;
+  position: relative;
 }
 
 .font-12 {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .font-13 {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .font-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .font-15 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .font-16 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .font-tag-mgzn {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .font-nav {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .font-mgzn {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .font-e-pick {
-    font-size: 1.65em;
+  font-size: 1.65em;
 }
 
 .font-tag {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 /* --------- Misc */
 .lh-1 {
-    line-height: 1.1em;
+  line-height: 1.1em;
 }
 
 .h-50 {
-    height: 50px;
+  height: 50px;
 }
 
 .border-show {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 /* --------- Navbar */
 .logo-one {
-    fill: #fff;
-    width: 135px;
+  fill: #fff;
+  width: 135px;
 }
 
 .logo-two {
-    fill: #F72210;
+  fill: #f72210;
 }
 
 header .row {
-    height: 50px;
+  height: 50px;
 }
 
 .login-icon {
-    display: inline;
+  display: inline;
 }
 
 .btn-subscribe {
-    height: 37px;
-    border: 0;
-    border-radius: 3em;
-    padding: 0 10px;
-    align-items: center;
-    width: 120px;
-    font-size: .7em;
-    font-weight: 700;
-    margin: 0;
+  height: 37px;
+  border: 0;
+  border-radius: 3em;
+  padding: 0 10px;
+  align-items: center;
+  width: 120px;
+  font-size: 0.7em;
+  font-weight: 700;
+  margin: 0;
 }
 
 /* --------- Third column */
 .bold-hr {
-    background-color: #9A9A9A;
-    height: 1.5px;
+  background-color: #9a9a9a;
+  height: 1.5px;
 }
 
 .img-3c {
-    width: 60px;
+  width: 60px;
 }
 
 .container-c-vs {
-    position: relative;
-    z-index: 0;
-    margin: 0 15px;
+  position: relative;
+  z-index: 0;
+  margin: 0 15px;
 }
 
 .container-c-vs::before,
 .container-c-vs::after {
-    display: block;
-    content: "";
-    background-color: #d9d9d9;
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
+  display: block;
+  content: "";
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .container-c-vs::before {
-    height: 2px;
-    top: calc(50% - 3px);
+  height: 2px;
+  top: calc(50% - 3px);
 }
 
 .container-c-vs::after {
-    top: 50%;
+  top: 50%;
 }
 
 .c-vs {
-    position: relative;
-    z-index: 1;
-    width: 32px;
-    height: 32px;
-    background-color: #000;
-    border-radius: 50%;
-    font: bold 14px/32px "Roboto Condensed", sans-serif;
-    text-align: center;
-    margin: 6px auto;
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
 
 .img2 {
-    height: 74px;
-    width: 74px;
-    cursor: pointer;
-  }
-  
-  .img2 img {
-    width: 74px;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+  height: 74px;
+  width: 74px;
+  cursor: pointer;
+}
+
+.img2 img {
+  width: 74px;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* --------- My Turn */
 .my-turn {
-    height: 460px;
-    object-fit: cover;
+  height: 460px;
+  object-fit: cover;
 }
 
 .grey-m-turn a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* --------- Subscribe form */
 .subscribe-div {
-    width: 300px;
-    min-width: 100px;
+  width: 300px;
+  min-width: 100px;
 }
 
 .subscribe-img {
-    width: 30px;
+  width: 30px;
 }
 
 .sticky-offset {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 /* --------- In the magazine */
 .in-the-mgzn {
-    height: 210px;
-    width: 100%;
-    object-fit: cover;
+  height: 310px;
+  object-fit: cover;
 }
 
 .tag-white-special {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+/* ---------- Bottom elements */
+.bg-bottom {
+  background-image: url("../img/bg-bottom.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center 20%;
+  height: 425px;
+  padding: 45% 10% 0 10%;
+  text-align: center;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
-    .my-turn {
-        height: 100px;
-        width: 100px;
-        object-fit: cover;
-    }
-    .login-icon {
-        display: none;
-    }
-    .border-show {
-        border-bottom: none;
-    }
+  .my-turn {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+
+  .login-icon {
+    display: none;
+  }
+
+  .border-show {
+    border-bottom: none;
+  }
 }
 
- /* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .m-stories {
-        height: 1145px;
-    }
-    .f-stories {
-        height: 1905px;
-    }
-    .my-turn {
-        height: 140px;
-        width: 140px;
-    }
-    .sticky-offset {
-        margin-top: 195px;
-    }
-    .debate-offset {
-        top: 190px;
-    }
-    .border-show {
-        border-bottom: none;
-    }
+  .m-stories {
+    height: 1145px;
+  }
+
+  .f-stories {
+    height: 1905px;
+  }
+
+  .my-turn {
+    height: 140px;
+    width: 140px;
+  }
+
+  .sticky-offset {
+    margin-top: 195px;
+  }
+
+  .debate-offset {
+    top: 190px;
+  }
+
+  .border-show {
+    border-bottom: none;
+  }
+
+  .bg-bottom {
+    background-size: 39%;
+    background-position: 10% center;
+    height: 325px;
+    padding: 10% 5% 0 46%;
+    text-align: left;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .container-xl {
-        max-width: 1450px;
-    }
-    .logo-one {
-        width: 335px;
-    }
-    .position-main {
-        top: 190px;
-    }
-    
+  .container-xl {
+    max-width: 1450px;
+  }
+
+  .logo-one {
+    width: 335px;
+  }
+
+  .position-main {
+    top: 190px;
+  }
+
+  .bg-bottom {
+    height: 400px;
+    background-position: 10% center;
+    padding: 8% 2% 0 26%;
+    text-align: left;
+  }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .container {
-        max-width: 131rem;
-    }
+  .container {
+    max-width: 131rem;
+  }
 }
