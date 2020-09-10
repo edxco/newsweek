@@ -401,4 +401,12 @@ header .row {
   .container {
     max-width: 131rem;
   }
+
+  .debate-offset {
+    top: 185px;
+  }
+
+  .top-story-offset {
+    top: 145px;
+  }
 }
