@@ -296,9 +296,9 @@ header .row {
 }
 
 .form-f-bg {
-    background: url("../img/footer-form-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
+  background: url("../img/footer-form-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -337,12 +337,8 @@ header .row {
     width: 140px;
   }
 
-  .sticky-offset {
-    margin-top: 195px;
-  }
-
   .debate-offset {
-    top: 190px;
+    top: 45px;
   }
 
   .border-show {
