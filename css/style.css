@@ -163,6 +163,7 @@ img {
 
 .logo-two {
   fill: #f72210;
+  width: 135px;
 }
 
 header .row {
@@ -286,9 +287,18 @@ header .row {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center 20%;
-  height: 425px;
   padding: 45% 10% 0 10%;
   text-align: center;
+}
+
+.subs-news {
+  height: 425px;
+}
+
+.form-f-bg {
+    background: url("../img/footer-form-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -342,9 +352,12 @@ header .row {
   .bg-bottom {
     background-size: 39%;
     background-position: 10% center;
-    height: 325px;
     padding: 10% 5% 0 46%;
     text-align: left;
+  }
+
+  .subs-news {
+    height: 325px;
   }
 
   .font-16 {
@@ -378,8 +391,12 @@ header .row {
   .bg-bottom {
     height: 400px;
     background-position: 10% center;
-    padding: 8% 2% 0 26%;
+    padding: 8% 2% 0 47%;
     text-align: left;
+  }
+
+  .subs-news {
+    height: 325px;
   }
 }
 
