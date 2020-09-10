@@ -292,7 +292,6 @@ header .row {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-
 @media (min-width: 576px) {
   .my-turn {
     height: 100px;
@@ -306,6 +305,10 @@ header .row {
 
   .border-show {
     border-bottom: none;
+  }
+
+  .font-e-pick {
+    font-size: 1.3em;
   }
 }
 
@@ -342,6 +345,19 @@ header .row {
     height: 325px;
     padding: 10% 5% 0 46%;
     text-align: left;
+  }
+
+  .font-16 {
+    font-size: 14px;
+  }
+
+  .in-the-mgzn {
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .sticky-offset {
+    margin-top: 45px;
   }
 }
 
