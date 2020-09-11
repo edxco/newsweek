@@ -7,7 +7,7 @@ This project is about to build a replica of the news site Newsweek.com using the
 * Bootstrap used
 * Used a mobile first approach.
 
-![screenshot](https://github.com/edxco/Responsive-website/blob/responsive/img/screenshot.jpg)
+![screenshot](https://github.com/edxco/newsweek/blob/bootstrap/img/news-screen.png)
 
 Additional description about the project and its features.
 
