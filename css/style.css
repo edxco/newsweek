@@ -334,7 +334,7 @@ header .row {
 
   .my-turn {
     height: 140px;
-    width: 140px;
+    width: 100%;
   }
 
   .debate-offset {
@@ -391,8 +391,16 @@ header .row {
     text-align: left;
   }
 
+  .top-story-offset {
+    top: 145px;
+  }
+
   .subs-news {
     height: 325px;
+  }
+
+  .sticky-offset {
+    margin-top: 195px;
   }
 }
 
@@ -400,13 +408,5 @@ header .row {
 @media (min-width: 1200px) {
   .container {
     max-width: 131rem;
-  }
-
-  .debate-offset {
-    top: 185px;
-  }
-
-  .top-story-offset {
-    top: 145px;
   }
 }
